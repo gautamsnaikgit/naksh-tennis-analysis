@@ -12,7 +12,7 @@ const elitePlayers = [
         coach: "Jelena Genčić",
         coachDetail: "Discovered him at age 6. Coached him for 6 years with iron discipline.",
         focus: ["Discipline", "Work ethic", "Resilience under hardship"],
-        lesson: "A single dedicated mentor with unwavering consistency — even in impossible conditions — is more valuable than any academy."
+        lesson: "A single dedicated mentor with unwavering consistency is the ultimate foundation. <strong>Stafford's 15-min proximity</strong> at Duluth allows for this 'Djokovic-style' consistency."
     },
     {
         name: "Roger Federer",
@@ -39,7 +39,7 @@ const elitePlayers = [
         coach: "Father & Kiko Navarro",
         coachDetail: "Trained at his father's academy. Known as a prodigy with 'natural tennis' at 8.",
         focus: ["Visual sharpness", "Reaction speed", "Net approach (age 8!)"],
-        lesson: "Advanced tactical play was introduced early because his technical foundation was solid. Technique first, then tactics."
+        lesson: "Advanced tactical play was introduced early. Stafford's ATP #53 tactical IQ is the perfect match for this early-stage development."
     },
     {
         name: "Coco Gauff",
@@ -91,7 +91,7 @@ const coaches = [
     {
         id: "grant",
         name: "Coach Grant Stafford",
-        type: "Top Choice / Elite Pro",
+        type: "The Lead Architect",
         typeClass: "type-alt",
         recommended: true,
         cost: "$100/1.5hr",
@@ -99,12 +99,12 @@ const coaches = [
         schedule: "Daytime (4-5 PM)",
         format: "Semi-Private (1:2)",
         ratio: "1:2",
-        reliability: { text: "Elite Track Record", class: "great" },
-        style: "World-Class Technical / ATP Pro",
-        scores: { technical: 10, tactical: 10, physical: 8, mental: 10, overall: 9.6 },
-        pros: ["Career High ATP Singles #53 / Doubles #42", "Decades of coaching at Duluth Racquet Club", "15 mins away — ideal logistics", "Semi-private (1:2) is the perfect developmental ratio"],
-        cons: ["Daytime schedule (4-5 PM) requires school coordination", "High demand — likely hard to secure more spots"],
-        verdict: "Grant Stafford is a 'Grand Slam' level resource. Reaching Top 50 in the world is a different tier of mastery. The fact that he is 15 mins away and offers 1:2 semi-privates makes him the #1 priority for Naksh’s technical development."
+        reliability: { text: "World-Class Pedigree", class: "great" },
+        style: "Grand Slam Level Technical / ATP #53",
+        scores: { technical: 10, tactical: 10, physical: 9, mental: 10, overall: 9.8 },
+        pros: ["Career High ATP Singles #53 / Doubles #42", "Unrivaled tactical understanding of the modern game", "15 mins away (Duluth) — minimizes travel fatigue", "Semi-private (1:2) mimics the 'Carter-Federer' developmental model"],
+        cons: ["Daytime schedule (4-5 PM) is the only hurdle", "High demand — securing additional spots is critical"],
+        verdict: "Grant Stafford is a transformative resource. In tennis terms, reaching #53 in the world is the '1% of the 1%.' His ability to teach not just 'how to hit' but 'how to play' is what Naksh needs to leapfrog standard junior development."
     },
     {
         id: "desmond",
@@ -144,22 +144,22 @@ const coaches = [
 
 const phases = [
     {
-        phase: "Phase 1 — The Pro-Pathway",
-        title: "Stafford & Gârd Strategy",
+        phase: "Phase 1 — The Master Foundation",
+        title: "The 'Stafford Engine' Strategy",
         timeline: "Now → Age 9",
         items: [
-            "<strong>Primary Technical: Grant Stafford (2x/week).</strong> At ATP #53 level, his technical eye is world-class. The 1:2 ratio at Duluth is the 'secret sauce.'",
-            "<strong>Supplementary Standard: Catalin Gârd (1x/week).</strong> Keep the connection to Catalin’s 'College Prep' environment. It’s a different but complementary pro perspective.",
-            "<strong>The Match Crucible: Coach Desmond.</strong> Use the tournament teams to apply what Stafford teaches. Technique without competition is just 'hitting.'"
+            "<strong>Lead Architect: Grant Stafford (2x/week).</strong> Focus on the 'Stafford Standard' for mechanics. His #53 experience ensures Naksh learns 'efficient' tennis from day one.",
+            "<strong>Technical Consultant: Catalin Gârd (1x/week).</strong> Use Catalin's 1:1 sessions for deep technical dives that complement Stafford's 1:2 work.",
+            "<strong>Mental/Match Crucible: Coach Desmond.</strong> Apply the Stafford technical foundation in match scenarios. This prevents Naksh from becoming a 'practice player.'"
         ]
     },
     {
-        phase: "Phase 2 — The Academy Leap",
-        title: "Peer Density Transition",
+        phase: "Phase 2 — Competitive Volume",
+        title: "Academy & Pro Maintenance",
         timeline: "Age 9 → 11",
         items: [
-            "<strong>Academy Integration:</strong> Once Stafford has set the foundation, move to Alpha Academy for the 15-20 hour/week volume.",
-            "<strong>Specialist Maintenance:</strong> Keep Stafford for 1:1 'check-ups' to ensure academy group habits don't degrade his technique."
+            "<strong>System Integration:</strong> Move to Alpha Academy for the high-volume environment once the 'Stafford mechanics' are locked in.",
+            "<strong>Master Maintenance:</strong> Keep Stafford for weekly 'Technical Checks.' Elite players often have a personal coach alongside academy training."
         ]
     }
 ];
