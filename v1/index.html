@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naksh Tennis Development — Elite Pathway Analysis</title>
+    <meta name="description" content="Comprehensive coaching analysis for Naksh's competitive tennis development, modeled after elite player pathways.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+</div>
+
+<div class="dashboard">
+
+    <!-- HEADER -->
+    <header id="top">
+        <div class="header-content">
+            <div class="header-badge">🎾 Elite Pathway Analysis</div>
+            <h1>Naksh's Tennis Development</h1>
+            <p class="subtitle">A data-driven strategy modeled after how Djokovic, Federer, Nadal, Alcaraz &amp; Gauff were developed at age 8</p>
+        </div>
+        <div class="stats-row">
+            <div class="stat-chip"><span class="stat-label">Age</span><span class="stat-value">8</span></div>
+            <div class="stat-chip"><span class="stat-label">Stage</span><span class="stat-value">FUNdamentals</span></div>
+            <div class="stat-chip"><span class="stat-label">Ball</span><span class="stat-value">Orange → Green</span></div>
+            <div class="stat-chip"><span class="stat-label">USTA Max Sessions</span><span class="stat-value">4/week</span></div>
+        </div>
+    </header>
+
+    <!-- NAV -->
+    <nav class="section-nav" id="section-nav">
+        <a href="#elite-lessons" class="nav-link active">Elite Lessons</a>
+        <a href="#four-pillars" class="nav-link">4 Pillars</a>
+        <a href="#coach-comparison" class="nav-link">Coach Matrix</a>
+        <a href="#strategy" class="nav-link">Strategy</a>
+        <a href="#cost-analysis" class="nav-link">Costs</a>
+        <a href="#action-plan" class="nav-link">Action Plan</a>
+    </nav>
+
+    <!-- SECTION 1: ELITE PLAYER LESSONS -->
+    <section id="elite-lessons" class="section">
+        <div class="section-header">
+            <h2>What Made the Greats Great at Age 8</h2>
+            <p>Every elite player's childhood reveals the same pattern: the right coach-to-player ratio, relentless technique focus, and deliberate competitive exposure — never random group hitting.</p>
+        </div>
+        <div class="elite-grid" id="elite-grid">
+            <!-- Cards injected by JS -->
+        </div>
+        <div class="insight-box" id="elite-insight">
+            <div class="insight-icon">💡</div>
+            <div class="insight-text">
+                <strong>The Common Thread:</strong> Every single elite player had a <em>dedicated technical mentor</em> with a low student ratio (1:1 or 1:2) by age 8. None relied primarily on large group clinics. They all combined structured technique work with progressive match play exposure — exactly the hybrid model research supports.
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: FOUR PILLARS -->
+    <section id="four-pillars" class="section">
+        <div class="section-header">
+            <h2>The 4 Pillars of Development</h2>
+            <p>USTA and ITF research identifies four pillars that must develop together. Here's how Naksh's current coaching addresses each — and where the gaps are.</p>
+        </div>
+        <div class="pillars-grid">
+            <div class="pillar-card" data-pillar="technical">
+                <div class="pillar-icon">🎯</div>
+                <h3>Technical</h3>
+                <p class="pillar-desc">Grips, swing paths, contact points, footwork patterns, serve mechanics</p>
+                <div class="pillar-bar"><div class="pillar-fill" style="--fill: 45%"><span>45%</span></div></div>
+                <p class="pillar-gap">Camilo does good drills but is unreliable. Catalina's group is too large for stroke correction.</p>
+            </div>
+            <div class="pillar-card" data-pillar="tactical">
+                <div class="pillar-icon">♟️</div>
+                <h3>Tactical</h3>
+                <p class="pillar-desc">Court positioning, shot selection, pattern play, reading opponents</p>
+                <div class="pillar-bar"><div class="pillar-fill" style="--fill: 30%"><span>30%</span></div></div>
+                <p class="pillar-gap">Neither current coach focuses on tactical awareness or match-play scenarios.</p>
+            </div>
+            <div class="pillar-card" data-pillar="physical">
+                <div class="pillar-icon">⚡</div>
+                <h3>Physical</h3>
+                <p class="pillar-desc">Agility, balance, coordination, speed — the ABCs of athleticism</p>
+                <div class="pillar-bar"><div class="pillar-fill" style="--fill: 50%"><span>50%</span></div></div>
+                <p class="pillar-gap">Natural athleticism is there. Needs structured movement training like Gauff's cone drills.</p>
+            </div>
+            <div class="pillar-card" data-pillar="mental">
+                <div class="pillar-icon">🧠</div>
+                <h3>Mental</h3>
+                <p class="pillar-desc">Focus, emotional control, resilience, sportsmanship, love for the game</p>
+                <div class="pillar-bar"><div class="pillar-fill" style="--fill: 55%"><span>55%</span></div></div>
+                <p class="pillar-gap">Tournaments and team play (Desmond) would accelerate mental toughness development.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: COACH COMPARISON MATRIX -->
+    <section id="coach-comparison" class="section">
+        <div class="section-header">
+            <h2>Coach Comparison Matrix</h2>
+            <p>Each coach scored across the 4 pillars on a 1-10 scale, weighted by what matters most at age 8.</p>
+        </div>
+        <div class="matrix-container">
+            <div class="coach-cards-grid" id="coach-cards-grid">
+                <!-- Injected by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: STRATEGIC RECOMMENDATION -->
+    <section id="strategy" class="section">
+        <div class="section-header">
+            <h2>The Hybrid Strategy</h2>
+            <p>Modeled after how elite players were actually developed — not how most parents think it works.</p>
+        </div>
+
+        <div class="strategy-phases" id="strategy-phases">
+            <!-- Injected by JS -->
+        </div>
+
+        <div class="weekly-schedule">
+            <h3>Recommended Weekly Schedule (Phase 1)</h3>
+            <div class="schedule-grid" id="schedule-grid">
+                <!-- Injected by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: COST ANALYSIS -->
+    <section id="cost-analysis" class="section">
+        <div class="section-header">
+            <h2>Investment Analysis</h2>
+            <p>Monthly cost comparison across scenarios. The "optimal" path isn't the most expensive — it's the most efficient.</p>
+        </div>
+        <div class="cost-scenarios" id="cost-scenarios">
+            <!-- Injected by JS -->
+        </div>
+    </section>
+
+    <!-- SECTION: EXPERT PRESSURE TEST -->
+    <section id="pressure-test" class="section">
+        <div class="section-header">
+            <h2>Expert Pressure Test: The 'Master Pro' vs. The 'Academy System'</h2>
+            <p>Addressing the dilemma: Why keep Alpha Academy in the mix when you have Catalin Gârd?</p>
+        </div>
+        <div class="insight-box" style="background: linear-gradient(135deg, rgba(251, 191, 36, 0.1), rgba(248, 113, 113, 0.05)); border-color: rgba(251, 191, 36, 0.2);">
+            <div class="insight-icon">⚖️</div>
+            <div class="insight-text">
+                <p><strong>The New Reality:</strong> With the discovery that <strong>Catalin Gârd</strong> (former ATP #224, with wins over <strong>Dimitrov</strong> and <strong>Zverev</strong>) offers private lessons, he becomes the undeniable "Technical North Star" for Naksh. His experience at the absolute peak of the sport is rare.</p>
+                
+                <p style="margin-top:15px;"><strong>Why Alpha Academy Still Matters:</strong></p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li><strong>Track Record:</strong> Alpha has produced elite national players like <strong>Trent Bryde</strong> (NCAA standout/ATP ranked) and <strong>Lauren Herring</strong>. They offer a *proven system* for moving kids through the USTA rankings.</li>
+                    <li><strong>Competitive Density:</strong> An individual pro (Gard) can give the best feedback, but an academy (Alpha) gives the best *environment*. To become a champion, Naksh needs to be "the small fish in a big pond" sometimes. Alpha provides 20+ kids at his level to play against.</li>
+                    <li><strong>Performance Verdict:</strong> The optimal path is to use <strong>Gârd for Technical Mastery</strong> (Private) and <strong>Alpha or Desmond for Match Density</strong>. Relying solely on a private coach—even an ATP pro—can lead to a "perfect but untested" game. Champions are forged in the fire of peer competition.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: ACTION PLAN -->
+    <section id="action-plan" class="section">
+        <div class="section-header">
+            <h2>Immediate Action Plan</h2>
+            <p>Concrete next steps you can take this week.</p>
+        </div>
+        <div class="action-list" id="action-list">
+            <!-- Injected by JS -->
+        </div>
+    </section>
+
+    <footer>
+        <p>Naksh Tennis Development Analysis &bull; Research-backed strategy powered by USTA, ITF, and elite player development data</p>
+    </footer>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
